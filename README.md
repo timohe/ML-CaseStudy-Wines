@@ -8,4 +8,4 @@ Clustering, Classification and PCA
 
 ## To run
 I used a python 3.5 environment with conda.     
-There is a yaml file in the repo to install the additional dependencies.
+There is a yml file in the repo to install the additional dependencies.
