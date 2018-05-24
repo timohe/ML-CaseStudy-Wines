@@ -1,23 +1,11 @@
-# classifyWines
-Code for the FS2018 course Machine Learning
+# Machine Learning on a wine dataset
+Using this dataset: https://archive.ics.uci.edu/ml/datasets/wine+quality    
 
-## Sources
-Basic statistic with plotly: https://plot.ly/python/basic-statistics/
+For the FS2018 course in Machine Learning at University of Zurich
 
-## Useful commands
-`source activate conda35` to use conda environment in mac terminal
+## Topics
+Clustering, Classification and PCA
 
-Data management
-merging with panda: merged = pandas.merge(left, right, on='key')
-
-Show basic data
-# redwine_overview_table = figureFact.create_table(redwinedata[0:5])
-# py.iplot(redwine_overview_table, filename='winequality-red')
-
-
-#convert median to panda series
-red_median = pandas.Series(list(red_median))
-white_median = pandas.Series(list(white_median))
-
-#convert from type: series to new type dataframe to be able to plot. 
-basicStats = pandas.DataFrame({'feature':red_mean.index, 'mean_red':red_mean.values, 'mean_white':white_mean.values, 'std_dev_red': red_stdev.values, 'std_dev_white': white_stdev.values, 'median_red': red_median.values, 'median_white': white_median.values })
+## To run
+I used a python 3.5 environment with conda.     
+There is a yaml file in the repo to install the additional dependencies.
